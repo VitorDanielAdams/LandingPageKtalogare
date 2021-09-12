@@ -45,6 +45,14 @@ header {
     text-decoration: none;
 }
 
+.client-bar a h3:hover {
+    opacity: .5;
+}
+
+.client-bar a h3:active {
+    border-bottom: 1px solid #ffffff;
+}
+
 .client-bar a h3 {
     font-family: Poppins;
     font-weight: 200;
