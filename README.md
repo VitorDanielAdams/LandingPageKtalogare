@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ieVVlnrzrmoYe0UC2DWXWR/Ktalogare?node-id=0%3A1.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ieVVlnrzrmoYe0UC2DWXWR/Ktalogare?node-id=0%3A1).
 
 ## :computer: Criadores
 
