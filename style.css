@@ -16,6 +16,7 @@
 
 html {
     font-family: poppins;
+    background-color: #791E94;
 }
 
 /* HEADER =========================*/
@@ -83,6 +84,68 @@ header {
     color: #FFFFFF;
 }
 
+.texto1{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 2%;
+
+}
+
+.texto1 h1{
+
+    font-size: 30px;
+
+}
+
+.texto1 p{
+
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.texto2{
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--verde3);
+    margin-top: 2%;
+
+}
+
+.texto2 h1{
+
+    width: 800px;
+
+}
+
+
+.marcasLinha1{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.marcasLinha1 img{
+
+    width: 150px;
+
+}
+
+.marcasLinha2{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
 .setor1{
     display: flex;
     align-items: center;
@@ -129,31 +192,42 @@ header {
 /*centro */
 .centro {
     display:flex;
-    width: 900px;
+    width: 95rem;
+    height: 24rem;
     align-items: center; 
     justify-content: center;
     margin: auto;
+    background-color: var(--roxo);
+    color: #ffffff;
 }
+
 .centro .subcentro span h2{
     width: 250px;
     line-height: 35px;
     margin-bottom: 1.0rem;
 }
+
 .centro .subcentro span p{
     width: 400px;
 }
+
 .outrocentro {
     height: 797px;
     background-color: #D5B0E0;
+    color: #ffffff;  
+      
 }
+
 .meio .image {
     display:flex ;
     align-items: center;
     justify-content: center;
 }
+
 .meio .image img {
     margin-right: 40px;
 }
+
 .meio span {
     display: flex;
     align-items: center;
