@@ -16,6 +16,7 @@
 
 html {
     font-family: poppins;
+    background-color: #791E94;
 }
 
 /* HEADER =========================*/
@@ -83,6 +84,70 @@ header {
     color: #FFFFFF;
 }
 
+<<<<<<< HEAD
+.texto1{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    margin-top: 2%;
+
+}
+
+.texto1 h1{
+
+    font-size: 30px;
+
+}
+
+.texto1 p{
+
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.texto2{
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--verde3);
+    margin-top: 2%;
+
+}
+
+.texto2 h1{
+
+    width: 800px;
+
+}
+
+
+.marcasLinha1{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.marcasLinha1 img{
+
+    width: 150px;
+
+}
+
+.marcasLinha2{
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+=======
 .setor1{
     display: flex;
     align-items: center;
@@ -217,5 +282,6 @@ footer .logo2 {
 
 
 
+>>>>>>> 951bdd86dd4c362708e76270a3356f9c5244beef
 
 
