@@ -84,6 +84,15 @@ header {
     color: #FFFFFF;
 }
 
+.curva {
+    margin:  auto 0;
+    width: 1250px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 0 0 80% 80%;
+    background-color: #D5B0E0;
+}
+
 .texto1{
 
     align-items: center;
