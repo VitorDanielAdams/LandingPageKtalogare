@@ -32,13 +32,12 @@ header {
 }
 
 .logo {
-    margin-left: 132px;
-    
+    margin-left: 15%; 
 }
 
 .client-bar {
     display: flex;
-    margin-left: -30rem;
+    margin-left: -20%;
 }
 
 .client-bar a {
@@ -85,6 +84,7 @@ header {
     color: #FFFFFF;
 }
 
+<<<<<<< HEAD
 .texto1{
 
     align-items: center;
@@ -147,7 +147,51 @@ header {
     justify-content: center;
 
 }
+=======
+.setor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
 
-main {}
 
-footer {}
+.setor1 .subSetor {
+    
+    width: 220px;
+    height: 256px;
+
+    background: rgba(121, 30, 148, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    margin: 1.5rem;
+    font-size: 12px;
+    
+
+    padding: 40px;
+
+    color: #ffffff;
+
+
+}
+
+.subSetor{
+
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    flex-direction: column;
+}
+
+.subSetor p{
+   color: #791E94;
+   margin: 1.5rem;
+   font-size: 10px;
+   
+
+}
+
+>>>>>>> 951bdd86dd4c362708e76270a3356f9c5244beef
+
+
