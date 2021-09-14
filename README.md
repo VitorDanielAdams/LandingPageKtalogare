@@ -16,9 +16,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
-- Java
-- React
-- BootStrap
 
 ## 🔖 Layout
 
