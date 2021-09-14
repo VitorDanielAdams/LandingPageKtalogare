@@ -1,0 +1,31 @@
+:root {  /* elemento root -> funciona como variáveis */
+    --roxo: #791E94;
+    --roxo2: #D5B0E0;
+    --roxo3:  rgba(121, 30, 148, 0.3);
+    --roxo4: #CC80E2;
+    --verde1: #41D3BD;
+    --verde2: #1C9D8A;
+    --verde3: #4A9287;
+}
+
+* {
+    margin: 0; /* espaçamento externo entre um elemento e outro */
+    padding: 0; /* preenchimento interno do elemento */
+    box-sizing: border-box; /* medida da caixa a partir da borda */
+}
+
+html {
+    font-family: poppins;
+}
+
+/* HEADER =========================*/
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxo);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
