@@ -31,13 +31,12 @@ header {
 }
 
 .logo {
-    margin-left: 132px;
-    
+    margin-left: 15%; 
 }
 
 .client-bar {
     display: flex;
-    margin-left: -30rem;
+    margin-left: -20%;
 }
 
 .client-bar a {
