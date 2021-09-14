@@ -192,31 +192,42 @@ header {
 /*centro */
 .centro {
     display:flex;
-    width: 900px;
+    width: 95rem;
+    height: 24rem;
     align-items: center; 
     justify-content: center;
     margin: auto;
+    background-color: var(--roxo);
+    color: #ffffff;
 }
+
 .centro .subcentro span h2{
     width: 250px;
     line-height: 35px;
     margin-bottom: 1.0rem;
 }
+
 .centro .subcentro span p{
     width: 400px;
 }
+
 .outrocentro {
     height: 797px;
     background-color: #D5B0E0;
+    color: #ffffff;  
+    margin: 20px;  
 }
+
 .meio .image {
     display:flex ;
     align-items: center;
     justify-content: center;
 }
+
 .meio .image img {
     margin-right: 40px;
 }
+
 .meio span {
     display: flex;
     align-items: center;
