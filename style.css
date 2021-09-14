@@ -162,11 +162,7 @@ footer .section1 .foot-bar a:hover {
 }
 
 footer .logo2 {
-    display: block;
     text-align: center;
-    color: var(--dark-blue);
-
-    opacity: 0.6;
 }
 
 
