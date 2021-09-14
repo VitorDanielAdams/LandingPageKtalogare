@@ -191,6 +191,85 @@ header {
    
 
 }
+/*centro */
+.centro {
+    display:flex;
+    width: 900px;
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+}
+.centro .subcentro span h2{
+    width: 250px;
+    line-height: 35px;
+    margin-bottom: 1.0rem;
+}
+.centro .subcentro span p{
+    width: 400px;
+}
+.outrocentro {
+    height: 797px;
+    background-color: #D5B0E0;
+}
+.meio .image {
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.meio .image img {
+    margin-right: 40px;
+}
+.meio span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1024px;
+    flex-direction: column;
+    margin:auto;
+    text-align: center;
+}
+
+/* FOOTER =============================*/
+
+footer {
+    height: 30rem;
+    background: rgb(121,30,148);
+    background: linear-gradient(0deg, rgba(121,30,148,1) 0%, rgba(80,14,99,1) 100%);
+}
+
+footer .section1 {
+    display: flex;
+    justify-content:center;
+    color: #ffffff;
+    
+}
+
+footer .section1 .foot-bar {
+    padding: 5rem;
+}
+
+footer .section1 .foot-bar h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer .section1 .foot-bar p,
+footer .section1 .foot-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+footer .section1 .foot-bar a:hover {
+    opacity: .7;
+}
+
+footer .logo2 {
+    text-align: center;
+}
+
+
+
+
 
 >>>>>>> 951bdd86dd4c362708e76270a3356f9c5244beef
 
