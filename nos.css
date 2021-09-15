@@ -119,9 +119,12 @@ header {
     margin:auto;
     text-align: center;
     
+
+    
 }
 .text span h1{
-    padding: 30px;
+    padding-top: 30px;
+    
 }
 .text span h2{
     padding:20px;
@@ -130,6 +133,9 @@ header {
     text-align: center;
     padding: 50px;
     padding-bottom: 40px;
+    background-color: var(--roxo2);
+    
+    
 }
 
 
