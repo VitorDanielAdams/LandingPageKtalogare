@@ -67,8 +67,6 @@ header {
     border-bottom: 1px solid #ffffff;
 }
 
-
-
 .contact {
     margin-right: 130px;
 }
@@ -94,7 +92,6 @@ header {
 }
 
 .curva {
-    margin: auto 0;
     width: 100%;
     height: 350px;
     overflow: hidden;
