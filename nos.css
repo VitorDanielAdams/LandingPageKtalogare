@@ -132,7 +132,7 @@ header {
     text-align: center;
     padding: 50px;
     padding-bottom: 40px;
-    background-color:#D5B0E0;
+    background-color:var(--roxo2);
     
 }
 
