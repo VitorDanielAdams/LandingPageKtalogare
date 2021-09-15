@@ -97,12 +97,9 @@ header {
 
     display: flex;
     align-items: center;
-<<<<<<< HEAD
     justify-content: center;
     
-=======
     margin-left: 25rem;
->>>>>>> 1de02d63e7b0e3be6fd1c811ecb863090613045b
     
 }
 
@@ -138,12 +135,9 @@ header {
     text-align: center;
     padding: 50px;
     padding-bottom: 40px;
-<<<<<<< HEAD
    
     
-=======
     background-color:#D5B0E0;
->>>>>>> 1de02d63e7b0e3be6fd1c811ecb863090613045b
     
 }
 
