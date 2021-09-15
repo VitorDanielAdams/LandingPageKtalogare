@@ -97,8 +97,12 @@ header {
 
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     justify-content: center;
     
+=======
+    margin-left: 25rem;
+>>>>>>> 1de02d63e7b0e3be6fd1c811ecb863090613045b
     
 }
 
@@ -116,12 +120,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1024px;
+    width: 100%;
     flex-direction: column;
-    margin:auto;
     text-align: center;
-    
-
+    margin: auto;
+    background-color: #D5B0E0;
     
 }
 .text span h1{
@@ -135,8 +138,12 @@ header {
     text-align: center;
     padding: 50px;
     padding-bottom: 40px;
+<<<<<<< HEAD
    
     
+=======
+    background-color:#D5B0E0;
+>>>>>>> 1de02d63e7b0e3be6fd1c811ecb863090613045b
     
 }
 
