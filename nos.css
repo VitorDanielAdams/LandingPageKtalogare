@@ -168,6 +168,11 @@ header {
     margin-left: 2rem;
 }
 
+.foto h3, p{
+    display: flex;
+    justify-content: center;
+}
+
 /*text*=============================*/
 .text span {
 
