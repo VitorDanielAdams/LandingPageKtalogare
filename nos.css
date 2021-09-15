@@ -108,3 +108,66 @@ header {
   
 
 }
+/*text*=============================*/
+.text span {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1024px;
+    flex-direction: column;
+    margin:auto;
+    text-align: center;
+    
+}
+.text span h1{
+    padding: 30px;
+}
+.text span h2{
+    padding:20px;
+}
+.textI h2{
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 40px;
+}
+
+
+/* FOOTER =============================*/
+
+footer {
+    height: 30rem;
+    background: rgb(121,30,148);
+    background: linear-gradient(0deg, rgba(121,30,148,1) 0%, rgba(80,14,99,1) 100%);
+}
+
+footer .section1 {
+    display: flex;
+    justify-content:center;
+    color: #ffffff;
+    
+}
+
+footer .section1 .foot-bar {
+    padding: 5rem;
+}
+
+footer .section1 .foot-bar h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer .section1 .foot-bar p,
+footer .section1 .foot-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+footer .section1 .foot-bar a:hover {
+    opacity: .7;
+}
+
+footer .logo2 {
+    text-align: center;
+}
+
