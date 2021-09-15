@@ -63,6 +63,12 @@ header {
     color: #FFFFFF;
 }
 
+.client-bar a .who {
+    border-bottom: 1px solid #ffffff;
+}
+
+
+
 .contact {
     margin-right: 130px;
 }
