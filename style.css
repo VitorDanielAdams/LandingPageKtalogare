@@ -218,6 +218,7 @@ header {
 
 .centro .subcentro span p{
     width: 400px;
+    
 }
 
 .outrocentro {
@@ -234,10 +235,12 @@ header {
 }
 
 .meio .image img {
+    padding: 30px;
     margin-right: 40px;
 }
 
 .meio span {
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,6 +248,9 @@ header {
     flex-direction: column;
     margin:auto;
     text-align: center;
+}
+.meio span p{
+    padding: 70px;
 }
 
 .meio h1{
