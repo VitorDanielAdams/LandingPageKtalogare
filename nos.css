@@ -101,24 +101,44 @@ header {
     margin: 20px;
 }
 
-.curva .text h2 {
+.curva .text h3 {
     margin: 20px;
 }
 
 .curva .text p {
-    width: 40%;
+    width: 30%;
     font-weight: 200;
     text-align: center;
 }
 
-.colab {
-    background-color: red;
+.colab .textI h2 {
+    color: var(--roxo);
 }
+
 
 .colaboradores {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.colaboradores .foto {
+    margin: 40px;
+}
+
+.colaboradores .foto h3,
+.colabMen .foto h3 {
+    color: #fff;
+}
+
+.colaboradores .foto p,
+.colabMen .foto p {
+    color: var(--roxo);
+}
+
+.colaboradores img,
+.colabMen img {
+    margin-bottom: 20px;
 }
 
 
@@ -129,7 +149,7 @@ header {
 }
 
 .colabMen .foto {
-    margin: 40px;
+    margin: 50px;
 }
 
 .foto {
