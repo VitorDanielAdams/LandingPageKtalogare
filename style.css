@@ -231,7 +231,7 @@ header {
     display:flex ;
     align-items: center;
     justify-content: center;
-    margin-top: 90px;
+    margin-top: 30px;
 }
 
 .meio .image img {
@@ -240,7 +240,7 @@ header {
 }
 
 .meio span {
-    padding: 40px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -249,8 +249,9 @@ header {
     margin:auto;
     text-align: center;
 }
+
 .meio span p{
-    padding: 70px;
+    padding: 10px;
 }
 
 .meio h1{
