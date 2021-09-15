@@ -14,6 +14,11 @@
     box-sizing: border-box; /* medida da caixa a partir da borda */
 }
 
+.logo {
+    margin-left: 15%; 
+}
+
+
 html {
     font-family: poppins;
 }
@@ -30,6 +35,79 @@ header {
     justify-content: space-between;
 }
 
+.client-bar {
+    display: flex;
+    margin-left: -20%;
+}
+
+.client-bar a {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.client-bar a h3:hover {
+    opacity: .5;
+}
+
+.client-bar a h3:active {
+    border-bottom: 1px solid #ffffff;
+}
+
+.client-bar a h3 {
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.contact {
+    margin-right: 130px;
+}
+
+.contact button {
+    width: 193px;
+    height: 27px;
+    background: var(--verde1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: var(--verde2);
+}
+
+.contact button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.colaboradores {
+
+    display: flex;
+    align-items: center;
+    margin-left: 25rem;
+    
+}
+
+.colaboradores2 {
+
+    display: flex;
+    align-items: center;
+    margin margin-left: 25rem;
+    
+}
+
+
+.foto{
+
+   margin: 2rem;
+   
+  
+
+}
 /*text*=============================*/
 .text span {
 
