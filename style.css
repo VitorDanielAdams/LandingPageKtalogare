@@ -29,6 +29,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    position: fixed;
 }
 
 .logo {
@@ -300,10 +302,3 @@ footer .section1 .foot-bar a:hover {
 footer .logo2 {
     text-align: center;
 }
-
-
-
-
-
-
-
