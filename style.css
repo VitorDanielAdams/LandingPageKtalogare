@@ -218,26 +218,29 @@ header {
 
 .centro .subcentro span p{
     width: 400px;
+    
 }
 
 .outrocentro {
     height: 797px;
     background-color: #D5B0E0;
     color: #ffffff;  
-      
 }
 
 .meio .image {
     display:flex ;
     align-items: center;
     justify-content: center;
+    margin-top: 90px;
 }
 
 .meio .image img {
+    padding: 30px;
     margin-right: 40px;
 }
 
 .meio span {
+    padding: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,6 +248,16 @@ header {
     flex-direction: column;
     margin:auto;
     text-align: center;
+}
+.meio span p{
+    padding: 70px;
+}
+
+.meio h1{
+    margin-top: 120px;
+}
+.meio p{
+    margin-top: 62px;
 }
 
 /* FOOTER =============================*/
