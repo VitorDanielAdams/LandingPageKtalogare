@@ -147,6 +147,7 @@ header {
 
 }
 
+
 .marca2{
 
     align-items: center;
@@ -155,25 +156,12 @@ header {
 
 }
 
-.marca2 img{
-
-    width: 140px;
-
-}
-
-.marca3{
-
-    align-items: center;
-    display: flex;
-    justify-content: center;
-
-}
-
-.marcar3 img{
+.marcar2 img{
 
     width: 150px;
 
 }
+
 .setor1{
 
     display: flex;
