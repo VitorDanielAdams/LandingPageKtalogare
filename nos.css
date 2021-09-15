@@ -84,26 +84,28 @@ header {
     color: #FFFFFF;
 }
 
+
 .colaboradores {
 
     display: flex;
     align-items: center;
-    margin-left: 25rem;
+    justify-content: center;
     
 }
 
-.colaboradores2 {
+.colabMen {
 
     display: flex;
     align-items: center;
-    margin margin-left: 25rem;
+    justify-content: center;
+    
     
 }
 
 
-.foto{
+.foto {
 
-   margin: 2rem;
+    margin-left: 2rem;
    
   
 
@@ -133,7 +135,7 @@ header {
     text-align: center;
     padding: 50px;
     padding-bottom: 40px;
-    background-color: var(--roxo2);
+   
     
     
 }
@@ -177,3 +179,8 @@ footer .logo2 {
     text-align: center;
 }
 
+.colab{
+
+  background: var(--roxo2);
+
+}
