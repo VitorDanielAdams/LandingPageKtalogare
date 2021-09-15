@@ -165,7 +165,11 @@ header {
     margin-left: 2rem;
 }
 
-.foto h3, p{
+.foto h3{
+    display: flex;
+    justify-content: center;
+}
+.foto p{
     display: flex;
     justify-content: center;
 }
