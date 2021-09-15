@@ -96,7 +96,7 @@ header {
 
     display: flex;
     align-items: center;
-    margin margin-left: 25rem;
+    margin-left: 25rem;
     
 }
 
@@ -114,12 +114,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1024px;
+    width: 100%;
     flex-direction: column;
-    margin:auto;
     text-align: center;
-    
-
+    margin: auto;
+    background-color: #D5B0E0;
     
 }
 .text span h1{
@@ -133,8 +132,7 @@ header {
     text-align: center;
     padding: 50px;
     padding-bottom: 40px;
-    background-color: var(--roxo2);
-    
+    background-color:#D5B0E0;
     
 }
 
