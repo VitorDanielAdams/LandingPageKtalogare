@@ -112,6 +112,10 @@ main{
     margin-bottom: 20px;
 }
 
+.texto1 {
+    text-align: center;
+}
+
 .texto1 h1{
     
     font-size: 30px;
@@ -119,6 +123,7 @@ main{
 }
 
 .texto1 p{
+    
     margin-top: 10px;
     font-size: 20px;
 }
