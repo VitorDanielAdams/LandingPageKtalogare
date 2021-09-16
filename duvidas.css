@@ -1,0 +1,193 @@
+* {
+    margin: 0; /* espaçamento externo entre um elemento e outro */
+    padding: 0; /* preenchimento interno do elemento */
+    box-sizing: border-box; /* medida da caixa a partir da borda */
+}
+
+:root {  /* elemento root -> funciona como variáveis */
+    --roxo: #791E94;
+    --roxo2: #D5B0E0;
+    --roxo3:  rgba(121, 30, 148, 0.3);
+    --roxo4: #CC80E2;
+    --verde1: #41D3BD;
+    --verde2: #1C9D8A;
+    --verde3: #4A9287;
+}
+
+
+html {
+    font-family: poppins;
+}
+
+body {
+    background-color: var(--roxo4);
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxo);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 15%; 
+}
+
+
+.client-bar {
+    display: flex;
+    margin-left: -20%;
+}
+
+.client-bar a {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.client-bar a h3:hover {
+    opacity: .5;
+}
+
+.client-bar a h3:active {
+    border-bottom: 1px solid #ffffff;
+}
+
+.client-bar a h3 {
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.client-bar a .who {
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact {
+    margin-right: 130px;
+}
+
+.contact button {
+    width: 193px;
+    height: 27px;
+    background: var(--verde1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: var(--verde2);
+}
+
+.contact button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #E5E5E5;
+}
+
+
+
+
+
+.container1 h1{
+
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+ .container{
+
+    padding: 30px 0;
+    flex-direction: column;
+
+   }
+
+.subcontainer {
+     background-color: var(--roxo2);
+     margin: 20px;
+  }
+  
+ .subcontainer p{
+    
+    color: white;
+    line-height: 70px;
+
+ }
+
+ .subcontainer h3 {
+    
+    background-color: var(--roxo);
+    color: white;
+    line-height: 25px;
+    margin: 0;
+  }
+
+.formduvidas h1{
+   color: white;
+   text-align: center;
+   padding-top: 35px;
+   
+}
+
+.formduvidas {
+  
+    color: #FFFFFF;
+    margin: 2px;
+    padding: 30px;
+    align-items: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 30rem;
+    background: rgb(121,30,148);
+    background: linear-gradient(0deg, rgba(121,30,148,1) 0%, rgba(80,14,99,1) 100%);
+}
+
+footer .section1 {
+    display: flex;
+    justify-content:center;
+    color: #ffffff;
+    
+}
+
+footer .section1 .foot-bar {
+    padding: 5rem;
+}
+
+footer .section1 .foot-bar h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer .section1 .foot-bar p,
+footer .section1 .foot-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+footer .section1 .foot-bar a:hover {
+    opacity: .7;
+}
+
+footer .logo2 {
+    text-align: center;
+}
