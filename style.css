@@ -273,10 +273,6 @@ main {
     margin-top: 50px;
 }
 
-#diferente {
-    margin-top: 55px;
-}
-
 .meio p {
     display: flex;
     align-content: center;
@@ -436,8 +432,5 @@ footer .logo2 {
     .meio .image {
         display: flex;
         flex-direction: column;
-    }
-    #diferente {
-        margin-top: 20px;
     }
 }
