@@ -1,0 +1,258 @@
+:root {  /* elemento root -> funciona como variáveis */
+    --roxo: #791E94;
+    --roxo2: #D5B0E0;
+    --roxo3:  rgba(121, 30, 148, 0.3);
+    --roxo4: #CC80E2;
+    --verde1: #41D3BD;
+    --verde2: #1C9D8A;
+    --verde3: #4A9287;
+}
+
+* {
+    margin: 0; /* espaçamento externo entre um elemento e outro */
+    padding: 0; /* preenchimento interno do elemento */
+    box-sizing: border-box; /* medida da caixa a partir da borda */
+}
+
+body {
+    background-color: var(--roxo);
+}
+
+html {
+    font-family: poppins;
+}
+
+header {
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+main{
+
+    margin-top: 100px;
+    width: 100%;
+    background-color:var(--roxo2);
+    padding: 50px 0;
+
+}
+
+.logo {
+    margin-left: 15%; 
+}
+
+.client-bar {
+    display: flex;
+    margin-left: -20%;
+}
+
+.client-bar a {
+    padding: 30px;
+    text-decoration: none;
+}
+
+.client-bar a h3:hover {
+    opacity: .5;
+}
+
+.client-bar a h3:active {
+    border-bottom: 1px solid #ffffff;
+}
+
+.client-bar a h3 {
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.contact {
+    margin-right: 130px;
+}
+
+.contact button {
+    width: 193px;
+    height: 40px;
+    background: var(--verde1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: var(--verde2);
+}
+
+.contact button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.contact_table button {
+    width: 190px;
+    height: 30px;
+    background: var(--verde1);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.contact_table button:hover {
+    background: var(--verde2);
+}
+
+.contact_table button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.tabelas_valores{
+
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--roxo3);
+    flex-wrap: wrap;
+}
+
+ul{
+
+    list-style-type: none;
+
+}
+
+.tabela{
+
+    min-height: 365px;
+    min-width: 300px;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+}
+
+.tabela li{
+
+    max-width: 350px;
+    padding: 10px 10px;
+
+}
+
+.tabela li:nth-of-type(1){
+
+    padding: 10px 8px;
+
+}
+
+.beneficios{
+
+    padding: 32px 20px;
+    box-sizing: border-box;
+    background-color: var(--roxo4);
+
+}
+
+.benef{
+
+    max-width: 200px;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    text-align: center; 
+
+}
+
+.tabela h2{
+
+    background-color: #791E94;
+    color: white;
+    padding: 16px 0;
+
+}
+
+.conteudo_tabela1 ul li:nth-of-type(even){
+
+    background-color: var(--roxo2);
+
+}
+
+.conteudo_tabela1 ul li:nth-of-type(odd){
+
+    background-color: var(--roxo4);
+
+}
+
+.tabela p span{
+
+ font-size: 40px;
+
+}
+
+.container{
+
+    max-width: 1260px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container2{
+
+    max-width: 1260px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    height: 30rem;
+    background: rgb(121,30,148);
+    background: linear-gradient(0deg, rgba(121,30,148,1) 0%, rgba(80,14,99,1) 100%);
+}
+
+footer .section1 {
+    display: flex;
+    justify-content:center;
+    color: #ffffff;
+    
+}
+
+footer .section1 .foot-bar {
+    padding: 5rem;
+}
+
+footer .section1 .foot-bar h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer .section1 .foot-bar p,
+footer .section1 .foot-bar a {
+    text-decoration: none;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+footer .section1 .foot-bar a:hover {
+    opacity: .7;
+}
+
+footer .logo2 {
+    text-align: center;
+}
