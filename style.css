@@ -316,7 +316,7 @@ main {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 35rem;
+    height: auto;
 }
 
 .feedback .client {
@@ -328,6 +328,7 @@ main {
 }
 
 .feedback .client .photo {
+    display: flex;
     margin: 10px;
 }
 
