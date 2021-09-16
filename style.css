@@ -405,6 +405,9 @@ footer .logo2 {
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    .subimagem img {
+        width: 70%;
+    }
     .subcentro span h2 {
         display: flex;
         flex-direction: column;
