@@ -1,7 +1,8 @@
-:root {  /* elemento root -> funciona como variáveis */
+:root {
+    /* elemento root -> funciona como variáveis */
     --roxo: #791E94;
     --roxo2: #D5B0E0;
-    --roxo3:  rgba(121, 30, 148, 0.3);
+    --roxo3: rgba(121, 30, 148, 0.3);
     --roxo4: #CC80E2;
     --verde1: #41D3BD;
     --verde2: #1C9D8A;
@@ -9,9 +10,12 @@
 }
 
 * {
-    margin: 0; /* espaçamento externo entre um elemento e outro */
-    padding: 0; /* preenchimento interno do elemento */
-    box-sizing: border-box; /* medida da caixa a partir da borda */
+    margin: 0;
+    /* espaçamento externo entre um elemento e outro */
+    padding: 0;
+    /* preenchimento interno do elemento */
+    box-sizing: border-box;
+    /* medida da caixa a partir da borda */
 }
 
 body {
@@ -22,29 +26,32 @@ html {
     font-family: poppins;
 }
 
+
 /* HEADER =========================*/
 
 header {
     width: 100%;
     height: 100px;
     background-color: var(--roxo);
-
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .logo {
-    margin-left: 15%; 
+    margin-left: 15%;
 }
 
 .client-bar {
     display: flex;
-    margin-left: -20%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 20px;
 }
 
 .client-bar a {
-    padding: 30px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -84,7 +91,7 @@ header {
     background: var(--verde2);
 }
 
-.contact button a{
+.contact button a {
     text-decoration: none;
     font-weight: bold;
     font-size: 15px;
@@ -117,7 +124,7 @@ header {
     text-align: center;
 }
 
-.colab{
+.colab {
     background: var(--roxo4);
 }
 
@@ -129,6 +136,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .colaboradores .foto {
@@ -150,11 +158,11 @@ header {
     margin-bottom: 20px;
 }
 
-
 .colabMen {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .colabMen .foto {
@@ -165,18 +173,20 @@ header {
     margin-left: 2rem;
 }
 
-.foto h3{
+.foto h3 {
     display: flex;
     justify-content: center;
 }
-.foto p{
+
+.foto p {
     display: flex;
     justify-content: center;
 }
+
 
 /*text*=============================*/
-.text span {
 
+.text span {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,37 +194,35 @@ header {
     flex-direction: column;
     text-align: center;
     margin: auto;
-   
-    
 }
-.text span h1{
+
+.text span h1 {
     padding-top: 30px;
-    
 }
-.text span h2{
-    padding:20px;
+
+.text span h2 {
+    padding: 20px;
 }
-.textI h2{
+
+.textI h2 {
     text-align: center;
     padding: 50px;
     padding-bottom: 40px;
-   
-    
 }
+
 
 /* FOOTER =============================*/
 
 footer {
     height: 30rem;
-    background: rgb(121,30,148);
-    background: linear-gradient(0deg, rgba(121,30,148,1) 0%, rgba(80,14,99,1) 100%);
+    background: rgb(121, 30, 148);
+    background: linear-gradient(0deg, rgba(121, 30, 148, 1) 0%, rgba(80, 14, 99, 1) 100%);
 }
 
 footer .section1 {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     color: #ffffff;
-    
 }
 
 footer .section1 .foot-bar {
@@ -238,4 +246,15 @@ footer .section1 .foot-bar a:hover {
 
 footer .logo2 {
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .curva {
+        border-radius: 0 0 0 0;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+    .curva .text p {
+        width: 80%;
+    }
 }
