@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="logo-femina" src="/main-page/img-mainPage/logo2" width="220px" />
+  <img alt="logo-femina" src="/main-page/img-mainPage/logo2.png"" width="220px" />
 </h1>
 
 ## 💻 Projeto
